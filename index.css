@@ -1,0 +1,144 @@
+*body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding: 6em;
+}
+
+
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1 {
+    margin-top: 5em;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.btn2 {
+    margin-top: 6em;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3em;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+
+
+
+.btn3 {
+    margin-top: 5em;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid (0, 0%, 95%);
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid (0, 0%, 95%);
+}
+
+.btn3:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid (0, 0%, 95%);
+}
+ 
+button{
+    
+    padding: 3px;
+    width: 150px;
+    background-color: hsl(31, 77%, 52%);
+    border: none;
+
+}
+button a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1em;   
+}
+
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;    
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    p{
+      font-size: 10px;  
+    }
+    a{
+        text-align: center;
+        
+    }
+    .box1{
+        border-radius: 0;
+    }
+    .box3{
+        border-radius: 0;
+    }
+    
+
+}
